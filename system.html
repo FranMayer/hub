@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="h-100" lang="en">
+<html class="h-100" lang="es">
 
   <head>
       <meta charset="utf-8">
@@ -12,7 +12,7 @@
   <meta name="author" content="Holger Koenemann">
   <meta name="generator" content="Eleventy v2.0.0">
   <meta name="HandheldFriendly" content="true">
-  <title>Register a new account</title>
+  <title>Studio Graphix - Contacto</title>
   <link rel="stylesheet" href="css/theme.min.css">
 
 
@@ -31,31 +31,41 @@
     <path d="m14.12 10.163 1.715.858c.22.11.22.424 0 .534L8.267 15.34a.598.598 0 0 1-.534 0L.165 11.555a.299.299 0 0 1 0-.534l1.716-.858 5.317 2.659c.505.252 1.1.252 1.604 0l5.317-2.66zM7.733.063a.598.598 0 0 1 .534 0l7.568 3.784a.3.3 0 0 1 0 .535L8.267 8.165a.598.598 0 0 1-.534 0L.165 4.382a.299.299 0 0 1 0-.535L7.733.063z"/>
     <path d="m14.12 6.576 1.715.858c.22.11.22.424 0 .534l-7.568 3.784a.598.598 0 0 1-.534 0L.165 7.968a.299.299 0 0 1 0-.534l1.716-.858 5.317 2.659c.505.252 1.1.252 1.604 0l5.317-2.659z"/>
   </svg>
-  <span class="ms-md-1 mt-1 fw-bolder me-md-5">Klar</span>
+  <span class="ms-md-1 mt-1 fw-bolder me-md-5">Studio Graphix</span>
 </a>
 
             </header>
             <main class="mb-auto col-12">
-              <h1>Register a new account</h1>
+              <h1>Convierte tus ideas en realidad</h1>
               
-<form class="row">
+<form class="row" method="post" action="#">
   <div class="col-12">
-  <div class="mb-3">
-    <label for="exampleInputEmail1" class="form-label">Email address</label>
-    <input type="email" class="form-control form-control-lg bg-gray-800 border-dark" id="exampleInputEmail1" aria-describedby="emailHelp">
-    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">Correo electrónico</label>
+      <input type="email" class="form-control form-control-lg bg-gray-800 border-dark" id="exampleInputEmail1" aria-describedby="emailHelp">
+      <div id="emailHelp" class="form-text">Nunca compartiremos esta información con nadie.</div>
+    </div>
+    <div class="mb-3">
+      <label for="exampleInputName" class="form-label">Nombre completo</label>
+      <input type="text" class="form-control form-control-lg bg-gray-800 border-dark" id="exampleInputName">
+    </div>
+    <div class="mb-3">
+      <label for="exampleInputPhone" class="form-label">Teléfono</label>
+      <input type="tel" class="form-control form-control-lg bg-gray-800 border-dark" id="exampleInputPhone">
+    </div>
+    <div class="mb-3">
+      <label for="exampleInputMessage" class="form-label">Mensaje</label>
+      <textarea class="form-control form-control-lg bg-gray-800 border-dark" id="exampleInputMessage" rows="3"></textarea>
+    </div>
+    <div class="mb-3 form-check py-3">
+      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+      <label class="form-check-label" for="exampleCheck1">Si realmente no quieres recibir nuestro boletín, <strong>marca esta casilla</strong>. De lo contrario, aceptas recibir nuestros correos de marketing y novedades de productos. Si marcas esta casilla, <strong>no enviaremos nuestro boletín</strong> en absoluto.</label>
+    </div>
+    <button type="submit" class="btn btn-white btn-xl mb-4">Enviar</button>
+    <button type="reset" class="btn btn-secondary btn-xl mb-4" style="background-color: #8E44AD;">Borrar datos</button>
   </div>
-  <div class="mb-3">
-    <label for="exampleInputPassword1" class="form-label">Password</label>
-    <input type="password" class="form-control form-control-lg bg-gray-800 border-dark" id="exampleInputPassword1">
-  </div>
-  <div class="mb-3 form-check py-3">
-    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-    <label class="form-check-label" for="exampleCheck1">If you really don´t want any newsletter <strong>check this box</strong>. Then you just agree to receive our marketing mails and product stuff. If you check this box <strong>we will not send out our newsletter</strong> to you at all...on mondays.</label>
-  </div>
-  <button type="submit" class="btn btn-white btn-xl mb-4">Submit</button>
-</div>
 </form>
+
 
             </main>
           </div>
