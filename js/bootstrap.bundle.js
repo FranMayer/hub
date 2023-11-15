@@ -26,9 +26,7 @@
 
     return Object.prototype.toString.call(object).match(/\s([a-z]+)/i)[1].toLowerCase();
   };
-  /**
-   * Public Util API
-   */
+
 
 
   const getUID = prefix => {
