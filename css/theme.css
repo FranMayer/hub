@@ -361,7 +361,7 @@ legend {
   outline-offset: -2px;
   -webkit-appearance: textfield; }
 
- rtl:raw:
+rtl:raw:
 [type="tel"],
 [type="url"],
 [type="email"],
@@ -10034,6 +10034,3 @@ img {
   html:not(.no-js) [data-aos=flip-down].aos-animate {
     -webkit-transform: perspective(2500px) rotateX(0);
     transform: perspective(2500px) rotateX(0); } }
-
-    /*personalizables*/
-
