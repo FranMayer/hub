@@ -10034,3 +10034,19 @@ img {
   html:not(.no-js) [data-aos=flip-down].aos-animate {
     -webkit-transform: perspective(2500px) rotateX(0);
     transform: perspective(2500px) rotateX(0); } }
+
+    /*personalizable*/
+
+    /* Estilos para pantallas más grandes */
+@media screen and (min-width: 768px) {
+  #myNavbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+  .navbar-nav {
+      display: flex;
+      gap: 1rem;
+  }
+}
+
