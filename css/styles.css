@@ -1,6 +1,43 @@
-/* styles.css */
-@import 'tailwindcss/base';
-@import 'tailwindcss/components';
-@import 'tailwindcss/utilities';
+.navbar-index {
+    display: flex;
+    justify-content: space-between;
+    max-height: 250px;
+    margin-bottom: 0;
+}
 
+.navbar-index  ul {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    list-style: none;
+    text-decoration: none;
+    color: aliceblue;
+    line-height: 250px;
+    font-family: 'Inter';
+    font-size: 25px;
+    margin-right: 20px;
+}
 
+.navbar-index a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.navbar-index a:hover {
+    text-decoration: underline;
+    color: aliceblue;
+}
+
+.navbar-index img {
+    width: 15rem;
+}
+
+#menu-toggle {
+    display: none;
+}
+
+.menu-toggle {
+    display: none;
+    position: absolute;
+    right: 60px;
+}

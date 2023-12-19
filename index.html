@@ -9,11 +9,14 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./img/Favicon.svg">
   <link rel="icon" type="image/png" sizes="16x16" href="./img/Favicon.svg">
   <link rel="icon" type="image/png" sizes="96x96" href="./img/Favicon.svg">
-  <meta name="author" content="Holger Koenemann">
-  <meta name="generator" content="Eleventy v2.0.0">
-  <meta name="HandheldFriendly" content="true">
-  <title>HUB - Inicio</title>
+  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="./css/mediaquery.css">
   <link rel="stylesheet" href="css/theme.min.css">
+
+  <title>HUB - Inicio</title>
+
+
+
 
   <style>
     /* inter-300 - latin */
@@ -73,46 +76,32 @@
 <body class="bg-black text-white mt-0" data-bs-spy="scroll" data-bs-target="#navScroll" style="max-width: 100%;
 overflow-x: hidden;">
 
-  <nav id="navScroll" class="navbar navbar-dark bg-black fixed-top px-vw-5" tabindex="0">
-    <div class="container">
-      <a class="navbar-brand pe-md-4 fs-4 col-12 col-md-auto text-center" href="index.html">
-        <img src="./img/Logo variacion 3 color fondo transparente.png" style="height: 5em;">
-      </a>
-      <ul class="navbar-nav ms-auto mb-2 mb-lg-0 list-group list-group-horizontal">
-        <li class="nav-item">
-          <a class="nav-link fs-5" href="index.html" aria-label="Homepage">
-            Home
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link fs-5" href="about.html" aria-label="A sample content page">
-            Sobre nosotros
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link fs-5" href="planes.html" aria-label="A system message page">
-            Planes
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link fs-5" href="contacto.html" aria-label="A system message page">
-            Contacto
-          </a>
-        </li>
-      </ul>
-    </div>
+  <nav class="navbar-index">
+    <img src="./img/Logo variacion 3 color fondo transparente.png" alt="logo hub">
+
+      <!-- Menu desplegable -->
+      <input type="checkbox" id="menu-toggle" />
+      <label for="menu-toggle" class="menu-toggle">
+          <img src="./img/boton hamburguesa.png" alt="" class="menu-icon">
+      </label> 
+
+    <ul class="list-navbar">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">Acerca de nosotros</a></li>
+      <li><a href="planes.html">Planes</a></li>
+      <li><a href="contacto.html">Contacto</a></li>
+    </ul>
   </nav>
-  
 
 
   <main>
     <div class="w-100 overflow-hidden position-relative bg-black text-white" data-aos="fade">
-      <div class="position-absolute w-100 h-100 bg-black opacity-75 top-0 start-0"></div>
-      <div class="container py-vh-4 position-relative mt-5 px-vw-5 text-center">
+      <div class="position-absolute w-100 h-100 bg-black opacity-75 top-0 start-0 mt-0"></div>
+      <div class="container py-vh-4 position-relative text-center">
         <div class="row d-flex align-items-center justify-content-center py-vh-5">
           <div class="col-12 col-xl-10">
-            <!-- <span class="h5 text-secondary fw-lighter">Nuestra misión</span> -->
-            <h1 class="display-huge mt-5 mb-3 lh-1">Conectamos ideas, construimos marcas</h1>
+            
+            <h1 class="display-huge  mb-3 lh-1">Conectamos ideas, construimos marcas</h1>
           </div>
           <div class="col-12 col-xl-8">
             <p class="lead text-secondary">"En el cruce entre creatividad y tecnología, encontramos la esencia
@@ -161,23 +150,23 @@ overflow-x: hidden;">
         
         <div class="row">
           <div class="col-lg-4 col-md-6 mb-3">
-            <img src="./img/pexels-zaksheuskaya-1616403.jpg" alt="icono" style="height: 100px;" class="mb-3">
-            <h4>Transformamos</h4>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <img src="./img/Creatividad innovadora.png" alt="icono" style="height: 100px;" class="mb-3">
+            <h6>Creatividad innovadora</h6>
+            <p style="font-size: 15px;"> Nos destacamos por pensar fuera de lo convencional y ofrecer soluciones claras y creativas.</p>
           </div>
     
           
           <div class="col-lg-4 col-md-6 mb-3">
-            <img src="./img/pexels-zaksheuskaya-1616403.jpg" alt="icono" style="height: 100px;" class="mb-3">
-            <h4>Hacemos</h4>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <img src="./img/Compromiso con la calidad.png" alt="icono" style="height: 100px;" class="mb-3">
+            <h6>Compromiso con la calidad</h6>
+            <p style="font-size: 15px;">Buscamos la excelencia en cada proyecto, desde el concepto hasta la ejecución.</p>
           </div>
     
           
           <div class="col-lg-4 mb-3">
-            <img src="./img/pexels-zaksheuskaya-1616403.jpg" alt="icono" style="height: 100px;" class="mb-3">
-            <h4>Imaginamos</h4>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <img src="./img/Enfoque integral.png" alt="icono" style="height: 100px;" class="mb-3">
+            <h6>Enfoque integral</h6>
+            <p style="font-size: 15px;"> Ofrecemos un conjunto completo de servicios para abordar todas las facetas de tu presencia en línea y fuera de ella.</p>
           </div>
     
           
