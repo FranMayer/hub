@@ -65,7 +65,10 @@
   --bs-link-color: #1717e5;
   --bs-link-hover-color: #1212b7;
   --bs-code-color: #d63384;
-  --bs-highlight-bg: #fff3cd; }
+  --bs-highlight-bg: #fff3cd;
+  --primary-color: #8e44ad;
+  --secondary-color: #78a1bb;
+  }
 
 *,
 *::before,
