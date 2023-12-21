@@ -118,7 +118,6 @@
     width: 100%;  
 }
 
-
 .navbar-index img {
     width: 250px;
     height: auto;
@@ -133,6 +132,8 @@
     position: absolute;
     right: 60px;
 }
+
+/*Boton de contacto*/
 
 .btn-personalizado {
     background-color: var(--primary-color);

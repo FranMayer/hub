@@ -1,4 +1,5 @@
 @media (max-width: 992px) {
+
     .navbar-index ul {
         display: none;
         flex-direction: column;
@@ -7,7 +8,7 @@
         top: 80px;
         left: 0;
         width: 100%;
-        background-color: black;
+        line-height: 100px; 
     }
 
     .menu-toggle {
@@ -26,8 +27,23 @@
         top: 200px;
         left: 0;
         width: 100%;
-        background-color: #333;
+        background-color: black; 
         z-index: 2;
-        
+    }
+
+    /*media query about*/
+
+    .row:first-child img,
+    .row:nth-child(2) img {
+        display: none; 
+    }
+
+    .row:last-child {
+        display: flex;
+        flex-direction: column; 
+    }
+
+    .col-md-6 {
+        margin-bottom: 20px;
     }
 }
