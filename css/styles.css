@@ -181,8 +181,18 @@
 /*texto de about*/
 
 .txt-center {
-    max-width: 600px; 
+    max-width: 500px; 
     margin: 0 auto; 
     text-align: center;
     margin-bottom: 20px;
+}
+
+.row-about {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.row-about img {
+    width: 100%;
 }

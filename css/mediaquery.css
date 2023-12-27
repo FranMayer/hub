@@ -33,17 +33,10 @@
 
     /*media query about*/
 
-    .row:first-child img,
-    .row:nth-child(2) img {
-        display: none; 
-    }
-
-    .row:last-child {
+    .row-about {
         display: flex;
-        flex-direction: column; 
-    }
-
-    .col-md-6 {
-        margin-bottom: 20px;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        gap: 20px;
     }
 }
