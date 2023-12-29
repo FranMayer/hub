@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="./css/mediaquery.css">
     <link rel="stylesheet" href="css/theme.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"> 
 
     <title>HUB - Planes</title>
 
@@ -76,33 +77,97 @@
 <body class="bg-black text-white mt-0" data-bs-spy="scroll" data-bs-target="#navScroll" style="max-width: 100%;
 overflow-x: hidden;">
 
-<nav class="navbar-index mt-0">
-    <img src="./img/Logo variacion 3 color fondo transparente.png" alt="logo hub">
+    <nav class="navbar-index mt-0">
+        <img src="./img/Logo variacion 3 color fondo transparente.png" alt="logo hub">
 
         <!-- Menu desplegable -->
         <input type="checkbox" id="menu-toggle" />
         <label for="menu-toggle" class="menu-toggle">
             <img src="./img/boton hamburguesa.png" alt="" class="menu-icon">
-        </label> 
+        </label>
 
-    <ul class="list-navbar">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">Acerca de nosotros</a></li>
-        <li><a href="planes.html">Planes</a></li>
-        <li><a href="contacto.html">Contacto</a></li>
-    </ul>
-</nav>
+        <ul class="list-navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">Acerca de nosotros</a></li>
+            <li><a href="planes.html">Planes</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
 
 
     <main>
 
-        <h1 style="text-align: center;">Planes</h1>
+<h1 style="text-align: center;">Planes</h1>
 
-<p style="text-align: center;">¡Bienvenido/a! Explora nuestros servicios y descubre los planes que tenemos para ti.</p>
+        <p style="text-align: center;">¡Bienvenido/a! Explora nuestros servicios y descubre los planes que tenemos para
+            ti.</p>
 
-        
+        <div class="container-cards_planes">
+
+            <div class="container mt-5">
+                <div class="row">
+
+                    <!-- Tarjeta 1 -->
+                    <div class="col-md-4">
+                        <div class="card bg-dark text-light">
+                            <img src="./img/plan-2372176_640.jpg" class="card-img-top" alt="Imagen 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Plan Zero</h5>
+                                <ul class="list-group bg-dark">
+                                    <li class="list-group-item bg-dark text-light">Creación de Logotipo</li>
+                                    <li class="list-group-item bg-dark text-light">Creación de una red a elección</li>
+                                    <li class="list-group-item bg-dark text-light">Creación de landing page (1 sola página estática)</li>
+                                    <li class="list-group-item bg-dark text-light">Un meet mensual</li>
+                                </ul>
+                                <a href="#" class="btn btn-primary mt-3">+ Mas info</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Tarjeta 2 -->
+                    <div class="col-md-4">
+                        <div class="card bg-dark text-light">
+                            <img src="./img/plan-2372176_640.jpg" class="card-img-top" alt="Imagen 2">
+                            <div class="card-body">
+                                <h5 class="card-title">Plan Create</h5>
+                                <ul class="list-group bg-dark">
+                                    <li class="list-group-item bg-dark text-light">Creación logo, paleta de colores, post redes, destacadas.</li>
+                                    <li class="list-group-item bg-dark text-light">Creación de dos redes sociales</li>
+                                    <li class="list-group-item bg-dark text-light">Creación de sitio web pequeño</li>
+                                    <li class="list-group-item bg-dark text-light">Un meet mensual</li>
+                                </ul>
+                                <a href="#" class="btn btn-primary mt-3">+ Mas info</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Tarjeta 3 -->
+                    <div class="col-md-4">
+                        <div class="card bg-dark text-light">
+                            <img src="./img/plan-2372176_640.jpg" class="card-img-top" alt="Imagen 3">
+                            <div class="card-body">
+                                <h5 class="card-title">Plan Impulse</h5>
+                                <ul class="list-group bg-dark">
+                                    <li class="list-group-item bg-dark text-light">Creación de manual de marca (Mas creación de folletos, stickers, tarjetas)</li>
+                                    <li class="list-group-item bg-dark text-light">Creación de todas las redes sociales</li>
+                                    <li class="list-group-item bg-dark text-light">Creación de sitio web (5 o mas paginas)</li>
+                                    <li class="list-group-item bg-dark text-light">Dos meet mensuales</li>
+                                </ul>
+                                <a href="#" class="btn btn-primary mt-3">+ Mas info</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <hr class="separador">
+
+        <div class="contenedor-servicios_planes">
 
 
+        </div>
 
 
 
@@ -173,10 +238,6 @@ overflow-x: hidden;">
             <div class="row">
                 <div class="col-12 col-lg-5 py-4 text-center text-lg-start">
                     <a class="navbar-brand pe-md-4 fs-4 col-12 col-md-auto text-center" href="index.html">
-                        <!--<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-stack" viewBox="0 0 16 16">
-    <path d="m14.12 10.163 1.715.858c.22.11.22.424 0 .534L8.267 15.34a.598.598 0 0 1-.534 0L.165 11.555a.299.299 0 0 1 0-.534l1.716-.858 5.317 2.659c.505.252 1.1.252 1.604 0l5.317-2.66zM7.733.063a.598.598 0 0 1 .534 0l7.568 3.784a.3.3 0 0 1 0 .535L8.267 8.165a.598.598 0 0 1-.534 0L.165 4.382a.299.299 0 0 1 0-.535L7.733.063z"/>
-    <path d="m14.12 6.576 1.715.858c.22.11.22.424 0 .534l-7.568 3.784a.598.598 0 0 1-.534 0L.165 7.968a.299.299 0 0 1 0-.534l1.716-.858 5.317 2.659c.505.252 1.1.252 1.604 0l5.317-2.659z"/>
-    </svg>-->
                         <img src="./img/Logo abreviado blanco.png" style="height: 3rem;">
                         <span class="ms-md-1 mt-1 fw-bolder me-md-5">HUB</span>
                     </a>
@@ -257,7 +318,7 @@ overflow-x: hidden;">
             console.log(scrollpos)
         })
     </script>
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
