@@ -202,3 +202,35 @@
 .separador {
     margin : 30px 60px ;
 }
+
+.contenedor-servicios_planes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.services-container {
+    display: flex;
+    gap: 20px; 
+}
+
+.services-item {
+    padding: 20px;
+    text-align: center;
+    max-width: 300px;
+}
+
+.services-item img {
+    max-width: 40%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.services-item h5 {
+    margin-bottom: 10px;
+}
+
+.services-item p {
+    color: #666;
+}
