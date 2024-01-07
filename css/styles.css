@@ -234,3 +234,10 @@
 .services-item p {
     color: #666;
 }
+
+/*CONTACTO CSS*/
+
+.gradient-personalizado {
+    background: rgb(214,51,132);
+background: linear-gradient(45deg, rgba(214,51,132,1) 0%, rgba(120,161,187,1) 46%, rgba(142,68,173,1) 100%);
+}
